@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fieldset Sections</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?" />
+    <!-- Abbas Raza (CCO-116677) -->
+  </head>
+  <body>
+    <main>
+      <form action="https://example.com/subscribe.php">
+        <fieldset>
+          <legend>The First Section</legend>
+          <fieldset>
+            <legend>The First Sub-Section</legend>
+            <label for="FirstSectionInnerField1"
+              >Field 1
+              <input
+                type="text"
+                id="FirstSectionInnerField1"
+                class="formControl"
+                name="Field1Inner"
+              />
+            </label>
+          </fieldset>
+          <label for="FirstSectionOuterField1"
+            >Field 1
+            <input
+              type="text"
+              id="FirstSectionOuterField1"
+              name="Field1Outter"
+            />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Section II</legend>
+          <fieldset>
+            <legend>Section II-A</legend>
+            <label for="SecondSectionAField1"
+              >Field 1
+              <input
+                type="text"
+                id="SecondSectionAField1"
+                name="Field1SectionIIA"
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Section II-B</legend>
+            <label for="SecondSectionBField1"
+              >Field 1
+              <input
+                type="text"
+                id="SecondSectionBField1"
+                name="Field1SectionIIB"
+              />
+            </label>
+          </fieldset>
+        </fieldset>
+        <button id="Go">GO! GO! GO!</button>
+      </form>
+    </main>
+  </body>
+</html>
